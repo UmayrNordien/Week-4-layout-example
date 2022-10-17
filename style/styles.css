@@ -6,22 +6,20 @@
     box-sizing: border-box;
 }
 .container {
-    min-width:100vw;
-    min-height:100vh;
+    min-width: 100vw;
+    min-height: 100vh;
     background-color: azure;
-    /*display:flex;*/
+    /* display: flex; */
 }
-
 #left {
     background-color: darkcyan;
-    width:400px;
-    min-height:100vh;
-    float:left;
- }
-
- #right {
+    max-width: 400px;
+    min-height: 100vh;
+    float: left;
+}
+#right {
     background-color: darkkhaki;
-    width:300px;
-    float:right;
-    min-height:100vh;
- }
+    max-width: 300px;
+    float: right;
+    min-height: 100vh;
+}
